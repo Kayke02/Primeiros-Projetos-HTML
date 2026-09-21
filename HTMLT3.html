@@ -87,11 +87,32 @@
 <div1>
     <h1> SOLICITAÇÃO DE PRODUTO </h1>
     <form>
-        <label for="Nome do Cliente"> Nome do Cliente </label>
-        <input type="text">
-        <br>
-        <label for="Email"> Email </label>
-        <input type="email">
+        <fieldset>
+            <legend> Dados do Cliente </legend>
+            <label for="Nome do Cliente"> Nome do Cliente </label>
+            <input type="text" maxlength="60" required>
+            <br>
+            <label for="Email"> Email </label>
+            <input type="email" maxlength="60" required>
+        </fieldset>
+        <fieldset>
+            <legend> Dados do Produto </legend>
+            <label for="Produto"> Produto desejado </label>
+            <select id="Produtos" required>
+                <option> Pão </option>
+                <option> Açucar </option>
+                <option> Farinha </option>
+                <option> Ovo </option>
+                <option> Coca-Cola </option>
+            </select>
+            <label for="Quantidade do Produto"> Quantidade Requisitada </label>
+            <input type="number" required>
+        </fieldset>
+        <fieldset>
+            <legend> Considerações finais </legend>
+            <label for="Observações"> Observações </label>
+            <textarea type="text"></textarea>
+        </fieldset>
     </form>
 </div1>
 </html>
