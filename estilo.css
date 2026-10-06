@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(172, 172, 172);
+}
+h1 {
+    color: rgb(90, 0, 0);
+}
+h2{
+    color: rgb(90, 0, 0);
+}
+h3 {
+    color: rgb(90, 0, 0);
+}
+table {
+    color: rgb(13, 77, 0);
+    line-height: 1.5;
+    border-collapse: collapse;
+}
+th, td {
+    border:1px solid black;
+}
