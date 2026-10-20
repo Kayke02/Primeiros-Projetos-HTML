@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title> Fornulario de Cadastro </title>
+        <link rel="stilesheet" href="stilo1.css">
+    </head>
+    <body>
+        <h1> Cadastro </h1>
+        <form action="receber.php" method="post" onsubmit="return validar()">
+            <fieldset>
+                <legend> Dados Cadastrais </legend>
+                <label for="nome"> NOME: </label>
+                <input type="text" maxlength="60" required>
+                <br>
+                <label for="idade"> IDADE: </label>
+                <input type="number" required>
+                <br>
+                <label for="email"> EMAIL: </label>
+                <input type="email" maxlength="60" required>
+                <br>
+                <button type="submit"> ENVIAR </button>
+                <button type="reset"> RESETAR CADASTRO </button>
+            </fieldset>
+        </form>
+    </body>
+</html>
